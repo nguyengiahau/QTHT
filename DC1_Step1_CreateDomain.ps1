@@ -8,8 +8,8 @@
     - Tạo forest/domain: hotensv.vn (NetBIOS: HOTENSV)
 #>
 
-$domainName  = "hotensv.vn"
-$netbiosName = "HOTENSV"
+$domainName  = "nguyengiahau.vn"
+$netbiosName = "NGUYENGIAHAU"
 
 Write-Host "=== B1: Đổi tên máy thành DC1 ==="
 Rename-Computer -NewName "DC1" -Force -PassThru
