@@ -7,9 +7,9 @@
 #>
 
 param(
-    [string]$DomainName = "hotensv.vn",
-    [string]$FileRoot   = "D:\HotenSV_Data",
-    [string]$AdminMail  = "admin@hotensv.vn"
+    [string]$DomainName = "nguyengiahau.vn",
+    [string]$FileRoot   = "D:\nguyengiahau_Data",
+    [string]$AdminMail  = "admin@nguyengiahau.vn"
 )
 
 Write-Host "=== Import module ==="
