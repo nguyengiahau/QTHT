@@ -5,9 +5,9 @@
 #>
 
 param(
-    [string]$DomainName = "hotensv.vn",
+    [string]$DomainName = "nguyengiahau.vn",
     [string]$NewName    = "Client01",
-    [string]$DomainNetBIOS = "HOTENSV"
+    [string]$DomainNetBIOS = "NGUYENGIAHAU"
 )
 
 Write-Host "=== 1. Lấy card mạng đang Up ==="
